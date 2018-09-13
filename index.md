@@ -10,21 +10,21 @@ layout: default
 
 ### 一、引言
 
-<div>  <font color=red size=4>软件带来财富</font>
-<div align = right>--- 保罗·格雷厄姆（Paul Graham）</div>
-<div align = right>--- 摘自《黑客与画家》</div>
-</div>
+> **软件带来财富**
+>
+> --- 保罗·格雷厄姆（Paul Graham），《黑客与画家》
+> 
 
-&emsp;&emsp;你可能注意到了，过去三十年中，很多程序员<font color=blue>(辍学生)</font>，如[比尔·盖茨](https://baike.baidu.com/item/%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8/83241)、[杨致远](https://baike.baidu.com/item/%E6%9D%A8%E8%87%B4%E8%BF%9C)、[拉里·埃里森](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E5%9F%83%E9%87%8C%E6%A3%AE)、[拉里·佩奇](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E4%BD%A9%E5%A5%87)、[马克·扎克伯格](https://baike.baidu.com/item/%E9%A9%AC%E5%85%8B%C2%B7%E6%89%8E%E5%85%8B%E4%BC%AF%E6%A0%BC/9760094)...，凭借编写划时代的软件产品，创建了世界上最伟大企业<font color=blue>(股市市值排名前10)</font>。为什么是程序猿，既不是高大上的银行家、金融奇才，也不是踏实的建筑工程师，或者摄影师，或者精算师...。 恭喜你，你已站在当今最赚钱行业的门口！为什么IT行业能持续高速发展？它会放慢脚步吗？
+&emsp;&emsp;你可能注意到了，过去三十年中，很多程序员**(辍学生)**，如[比尔·盖茨](https://baike.baidu.com/item/%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8/83241)、[杨致远](https://baike.baidu.com/item/%E6%9D%A8%E8%87%B4%E8%BF%9C)、[拉里·埃里森](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E5%9F%83%E9%87%8C%E6%A3%AE)、[拉里·佩奇](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E4%BD%A9%E5%A5%87)、[马克·扎克伯格](https://baike.baidu.com/item/%E9%A9%AC%E5%85%8B%C2%B7%E6%89%8E%E5%85%8B%E4%BC%AF%E6%A0%BC/9760094)...，凭借“杀手级”软件产品，创建了世界上最伟大企业**(股市市值排名前10)**。为什么是程序猿，既不是高大上的银行家、金融奇才，也不是踏实的建筑工程师，或者摄影师，或者精算师...。 恭喜你，你已站在当今最赚钱行业的门口！为什么IT行业能持续高速发展？它会放慢脚步吗？
 
-> **<font color=red size=4>语言塑造了我们思考的方式，决定了思考的内容</font>**  
+> **语言塑造了我们思考的方式，决定了思考的内容**  
 >   
-> <div align = right>--- 本杰明·沃尔夫（Benjamin Lee Whorf）</div>
-> <div align = right>--- 摘自《奇思妙想：15位计算机天才及其重大发现》第一部分：如何与机器对话</div>
+> --- 本杰明·沃尔夫（Benjamin Lee Whorf）《奇思妙想：15位计算机天才及其重大发现》第一部分：如何与机器对话
+> 
 
 &emsp;&emsp;提到计算机语言，你可能听说过 Basic，c，Pascal 等，以及神秘的 acm 竞赛。在计算机领域中，学语言只是计算机基础能力的一小部分。 当你熟练的使用 word 完成一个文档的排版，你是否意识到自己也在使用一种计算机可执行的排版语言呢？ 通俗地说，任何解决问题的动作序列都是程序。编程无处不在，即使玩游戏也是编程啊:）。
 
-&emsp;&emsp;把计算机看作机器的程序猿，需要用机器的方法去思考，考虑用电路实现计算。当[Fortran](https://en.wikipedia.org/wiki/Fortran)（公式翻译）语言出现后，人们可以用一种高级的结构化的语言思考科学计算问题； 当面对“人工智能”领域的逻辑推理问题时，人们提出了[Lisp](https://en.wikipedia.org/wiki/Lisp_\(programming_language\))（表处理）语言；当我们把世界万物都抽象为对象（Object），面向对象思考的语言（Smalltalk,[Java](https://en.wikipedia.org/wiki/Java_\(programming_language\))...）就产生了。在此基础上，人们逐步认清计算的本质，创造了各种各样的计算机语言，以及应用于各种专业领域的特种语言。 （计算机）语言将赋予程序员独特而严谨的思考方式，让我们热爱编程，具体说用计算机语言去理解并改变世界！
+&emsp;&emsp;把计算机看作机器的程序猿，需要用机器的方法去思考，考虑用电路实现计算。当[Fortran](https://en.wikipedia.org/wiki/Fortran)（公式翻译）语言出现后，人们可以用一种高级的结构化的语言思考科学计算问题； 当面对“人工智能”领域的逻辑推理问题时，人们提出了[Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language))（表处理）语言；当我们把世界万物都抽象为对象（Object），面向对象思考的语言（Smalltalk,[Java](https://en.wikipedia.org/wiki/Java_(programming_language))...）就产生了。在此基础上，人们逐步认清计算的本质，创造了各种各样的计算机语言，以及应用于各种专业领域的特种语言。 （计算机）语言将赋予程序员独特而严谨的思考方式，让我们热爱编程，具体说用计算机语言去理解并改变世界！
 
 ### 二、课程任务（目标）
 
