@@ -12,10 +12,10 @@ layout: default
 
 <blockquote>
   
-   **<font color=red size=4>软件带来财富</font>**  
+   <font color=red size=4>软件带来财富</font>  
    
- <div align = right>--- 保罗·格雷厄姆（Paul Graham）</div>
- <div align = right>--- 摘自《黑客与画家》</div>
+   <div align = right>--- 保罗·格雷厄姆（Paul Graham）</div>
+   <div align = right>--- 摘自《黑客与画家》</div>
 
 </blockquote>
 
