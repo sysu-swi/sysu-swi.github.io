@@ -10,10 +10,10 @@ layout: default
 
 ### 一、引言
 
-<blockquote>  <font color=red size=4>软件带来财富</font>  
+<div>  <font color=red size=4>软件带来财富</font>
 <div align = right>--- 保罗·格雷厄姆（Paul Graham）</div>
 <div align = right>--- 摘自《黑客与画家》</div>
-</blockquote>
+</div>
 
 &emsp;&emsp;你可能注意到了，过去三十年中，很多程序员<font color=blue>(辍学生)</font>，如[比尔·盖茨](https://baike.baidu.com/item/%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8/83241)、[杨致远](https://baike.baidu.com/item/%E6%9D%A8%E8%87%B4%E8%BF%9C)、[拉里·埃里森](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E5%9F%83%E9%87%8C%E6%A3%AE)、[拉里·佩奇](https://baike.baidu.com/item/%E6%8B%89%E9%87%8C%C2%B7%E4%BD%A9%E5%A5%87)、[马克·扎克伯格](https://baike.baidu.com/item/%E9%A9%AC%E5%85%8B%C2%B7%E6%89%8E%E5%85%8B%E4%BC%AF%E6%A0%BC/9760094)...，凭借编写划时代的软件产品，创建了世界上最伟大企业<font color=blue>(股市市值排名前10)</font>。为什么是程序猿，既不是高大上的银行家、金融奇才，也不是踏实的建筑工程师，或者摄影师，或者精算师...。 恭喜你，你已站在当今最赚钱行业的门口！为什么IT行业能持续高速发展？它会放慢脚步吗？
 
