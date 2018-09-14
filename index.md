@@ -87,19 +87,19 @@ layout: default
 |:--:| ---- | ---- | ---- |
 | 3 | Introduction [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/01-CourseOverview.pdf) |1. IT领域·巨星偶像。 [纪念艾伦•图灵百年诞辰](http://songshuhui.net/archives/69786/) **不做火星人** <br> 2. 技术宅的快乐。 [“韩国小姐”的脸到底有多相似？](http://www.guokr.com/article/436974/) **科学与娱乐** <br> 3. 创意发现与书写。[腾讯创意](http://djt.qq.com/page/178) | 作业1：名词解释【中英文】 <br>项目1-1：[用 Markdown 语言写博客](markdown.html) |
 | 4 | Number System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/02-NumberSystem.pdf) |1. 程序员人生：《黑客与画家》第二章 | 作业2： 见课件 <br> 项目2-1：[制作HTML5游戏1](game1.html) <br> 项目1-2：写一篇游戏开发技术博客 |
-| 5 | 中秋节 | &emsp; | &emsp; |
-| 6 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
-| 7 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
-| 8 | Gates and Circuits    [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/04-GatesCircuits.pdf) | IT产业规律：《浪潮之巅》第4章 计算机工业的生态链 |作业5：见课件 <br>  项目3-1：[用电路做加法](hardware1.html)  <br> 项目1-5：按项目3-1要求写一篇技术博客 |
-| 9 | Computing Components [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
+| 5 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
+| 6 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
+| 7 | Gates and Circuits    [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/04-GatesCircuits.pdf) | IT产业规律：《浪潮之巅》第4章 计算机工业的生态链 |作业5：见课件 <br>  项目3-1：[用电路做加法](hardware1.html)  <br> 项目1-5：按项目3-1要求写一篇技术博客 |
+| 8 | Computing Components [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
+| 9 | Programming on Bare Machine [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/06-13ProgrammingBarely.pdf) | &emsp; | 作业7：见课件 <br> 项目3-2：[机器语言编程](hardware2.html) <br> 项目1-7：按项目2-2要求介绍小游戏及其软件设计 |
 | 10 | 期中考试 | &emsp; | &emsp; |
-| 11 | Programming on Bare Machine [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/06-13ProgrammingBarely.pdf) | &emsp; | 作业7：见课件 <br> 项目3-2：[机器语言编程](hardware2.html) <br> 项目1-7：按项目2-2要求介绍小游戏及其软件设计 |
-| 12 | Problem Solving and Algorithm [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/07-13ProblemSolving.pdf) | 伪代码规范：[Pseudocode Standard](http://users.csc.calpoly.edu/~jdalbey/SWE/pdl_std.html)| 作业8：见课件 <br> 项目1-8：写一个博客，介绍“自顶向下，逐步求精”的编程方法，并以你观察的洗衣机为案例，用伪代码描述的控制程序设计 |
-| 13 | Problem Solving and OO Design [ppt]()| 风云人物与计算机语言：<br> 1. 《奇思妙想》第一部分 如何与计算机对话（前言) <br> 2. 《奇思妙想》第1章 约翰·巴科斯 |  作业9：见课件 <br> 项目4：[Python 交互式编程](python.html) <br> 1-9：写一个博客关于 IT 伦理与道德的博客。[具体要求](markdown-it-ethic.html)|
-| 14 | Abstract Data Types and Algorithms [ppt]() | 风云人物与计算机语言：<br> 3. 《奇思妙想》第2章 约翰·麦卡锡 <br> 4. 《奇思妙想》第3章 艾伦·C·凯 | 作业10：见课件 <br>项目1-10：写一篇博客简介某计算机语言历史。[具体要求](markdown-lang.html) <br> 用实例讲述一些排序的算法过程（越直观越好）!加分项|
-| 15 | Abstract Data Types and Algorithms | 风投与IT产业：<br> 1. 《浪潮之巅》第13章 风险投资 <br> 2. 《浪潮之巅》第7章 思科 |  作业11：见课件 <br> 项目5-1：[字符游戏-贪吃蛇](snake-game1.html) <br> 项目1-11：完成相关阅读，以博客形式写有关IT行业风投的知识、事件等，请重点关注风投与中国 |
-| 16 | Operation System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/09-OperationSystem.pdf) | 互联网经济与新思维：<br> 1. 《浪潮之巅》第8章 雅虎公司 <br> 2. 《浪潮之巅》第19章 商业模式 | 项目5-2：[字符游戏-智能蛇](snake-game2.html) <br> 项目1-12：写一个博客介绍字符版本贪吃蛇游戏设计及算法、或创新玩法 |
-| 17 | Networks [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/10-Network.pdf) | 扩展阅读：互联网与新思维 <br> 《长尾理论》《世界是平的》《蓝海战略》<br> | 项目1-13：吴军在浪潮之巅中，用了“流量、流量、流量”来强调新经济时代的核心。请围绕“流量”这个核心，在相关阅读基础上，用博客介绍互联网时代的盈利模式 |
+| 11 | Problem Solving and Algorithm [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/07-13ProblemSolving.pdf) | 伪代码规范：[Pseudocode Standard](http://users.csc.calpoly.edu/~jdalbey/SWE/pdl_std.html)| 作业8：见课件 <br> 项目1-8：写一个博客，介绍“自顶向下，逐步求精”的编程方法，并以你观察的洗衣机为案例，用伪代码描述的控制程序设计 |
+| 12 | Problem Solving and OO Design [ppt]()| 风云人物与计算机语言：<br> 1. 《奇思妙想》第一部分 如何与计算机对话（前言) <br> 2. 《奇思妙想》第1章 约翰·巴科斯 |  作业9：见课件 <br> 项目4：[Python 交互式编程](python.html) <br> 1-9：写一个博客关于 IT 伦理与道德的博客。[具体要求](markdown-it-ethic.html)|
+| 13 | Abstract Data Types and Algorithms [ppt]() | 风云人物与计算机语言：<br> 3. 《奇思妙想》第2章 约翰·麦卡锡 <br> 4. 《奇思妙想》第3章 艾伦·C·凯 | 作业10：见课件 <br>项目1-10：写一篇博客简介某计算机语言历史。[具体要求](markdown-lang.html) <br> 用实例讲述一些排序的算法过程（越直观越好）!加分项|
+| 14 | Abstract Data Types and Algorithms | 风投与IT产业：<br> 1. 《浪潮之巅》第13章 风险投资 <br> 2. 《浪潮之巅》第7章 思科 |  作业11：见课件 <br> 项目5-1：[字符游戏-贪吃蛇](snake-game1.html) <br> 项目1-11：完成相关阅读，以博客形式写有关IT行业风投的知识、事件等，请重点关注风投与中国 |
+| 15 | Operation System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/09-OperationSystem.pdf) | 互联网经济与新思维：<br> 1. 《浪潮之巅》第8章 雅虎公司 <br> 2. 《浪潮之巅》第19章 商业模式 | 项目5-2：[字符游戏-智能蛇](snake-game2.html) <br> 项目1-12：写一个博客介绍字符版本贪吃蛇游戏设计及算法、或创新玩法 |
+| 16 | Networks [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/10-Network.pdf) | 扩展阅读：互联网与新思维 <br> 《长尾理论》《世界是平的》《蓝海战略》<br> | 项目1-13：吴军在浪潮之巅中，用了“流量、流量、流量”来强调新经济时代的核心。请围绕“流量”这个核心，在相关阅读基础上，用博客介绍互联网时代的盈利模式 |
+| 17 | 软件工程综述 | &emsp; | &emsp; |
 | 18 | 软件工程与职业规划 [ppt](http://ss.sysu.edu.cn/~pml/se121/2016fall/%C8%ED%BC%FE%B9%A4%B3%CC%D3%EB%D6%B0%D2%B5%B9%E6%BB%AEv30.pdf) | 扩展阅读：互联网与新思维 <br> 格拉德威尔系列：《异类》《引爆点》| 项目1-14: 写一遍博客介绍互联网时代的热点领域选择、营销方法 |
 | 19 | 复习 | &emsp; | &emsp; |
 | 20 | 期末考试 | &emsp; | &emsp; |
@@ -128,4 +128,4 @@ Q:课程内容缺乏重点与主题？
 A:该课程包含大量知识介绍，没有所谓重点或主题。请选择你感兴趣的点，多做课外阅读。
 
 Q:我的电脑需要装哪些软件？  
-A:建议按装双系统。64位的win 7操作系统与Ubuntu(乌班兔)操作系统（菜单一定设成英文的啊）。Mac系统，建议用VBox安装win 7虚拟机，或者装双系统。有问题问师兄、师姐哦
+A:建议按装 64位的win 10操作系统，用VBox安装win 7与Ubuntu(乌班兔)虚拟机。Mac系统，用VBox安装win 7虚拟机。有问题问师兄、师姐哦
