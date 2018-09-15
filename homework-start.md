@@ -18,6 +18,12 @@ gitHub 是一个面向开源及私有软件项目的托管平台。作为开源�
 * 使用 GitPage，作为文档托管空间，介绍你的项目、记录与分享技术学习经验。
 * 你也可以建立你的专业博客，突出作为计算机专业学生的优势。
 
+用 github 做作业，你需要注意的事项：
+
+* 系统会记录你提交内容的历史，且无法删除
+* 作业是公开的，任何人都可以随时检查
+* 请慎言！在 github 上 **妄议时政** 是低级、可笑的错误
+
 ## 2、Github 环境准备
 
 ### 2.1 注册 Github 账号
@@ -65,23 +71,20 @@ $ git config --global credential.helper store
 
 注意：邮箱必须与 github 注册邮箱一致
 
-以后，只要第一次提交输入密码，以后就免密码了！
+以后，只要第一次提交输入密码，以后就 **免密码** 了！
 
 `cat .gitconfig` 你就知道上述操作的内容，手工编辑该文件也行！
 
-**配置访问服务器密码，免去每次提示**
+### 2.4 安装 vscode
 
-检查是否是用户根目录，如不是输入 `cd ~`
+[vscode](https://code.visualstudio.com/)，以不变应万变的编程神器，除了 Java 外，你大学阶段的编程工具就搞定了！
 
-创建 `.git-credentials` 文件，配置访问 github 的用户与密码。例如： 
+window、mac、linux 通杀的平台，还不快到[官网]((https://code.visualstudio.com/))，下载安装。
 
-```
-$ echo "https://user:password@github.com" .git-credentials
-$ cat .git-credentials
-$ git config --global credential.helper store
-```
+当然 vscode 是目前最强大的跨平台 markdown 编辑工具！ 
 
-## 3、安装 vscode
+## 3、开始作业之旅
+
 
 
 

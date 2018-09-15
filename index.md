@@ -77,7 +77,7 @@ layout: default
 
 作业提交。请按作业模板 [readme](https://github.com/sysu-swi/homework) 操作，并及时提交。 
 
-* [开始做作业，系统安装指南](homework-start)
+* [开启在线作业之旅，让作业也有软件专业的特色！](homework-start)
 
 **4、我没有电脑，怎么办？**
 
