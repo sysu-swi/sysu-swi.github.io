@@ -55,16 +55,19 @@ gitHub 是一个面向开源及私有软件项目的托管平台。作为开源�
 
 ### 2.3 配置 git 用户
 
-打开 git bash 工具与密码
-
-**配置访问服务器的用户**
+打开 git bash 工具的用户名和密码存储
 
 ```
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
+$ git config --global credential.helper store
 ```
 
 注意：邮箱必须与 github 注册邮箱一致
+
+以后，只要第一次提交输入密码，以后就免密码了！
+
+`cat .gitconfig` 你就知道上述操作的内容，手工编辑该文件也行！
 
 **配置访问服务器密码，免去每次提示**
 
