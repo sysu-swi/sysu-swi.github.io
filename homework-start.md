@@ -121,9 +121,9 @@ window、mac、linux 通杀的平台，还不快到[官网]((https://code.visual
 
 5、推送（Push）到 github 网站的仓库
 
-![](images/homework-helper/vs-push.png)
+![](images/homework-helper/vs-push.PNG)
 
-9、刷新浏览器，你会看到仓库中 `README.md` 文档的变化
+6、刷新浏览器，你会看到仓库中 `README.md` 文档的变化
 
 ### 3.2 创建作业仓库
 
@@ -168,7 +168,9 @@ $ git checkout master
 
 ![](images/homework-helper/branch-repo.png)
 
-### 3.3 使用编辑并提交第一次作业
+### 3.3 编辑并提交第一次作业
+
+把 github 仓库复制到本地后
 
 **作业空间结构**
 
