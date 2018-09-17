@@ -90,7 +90,7 @@ layout: default
 | 周 | 课程内容 | 阅读要求 | 作业与项目 |
 |:--:| ---- | ---- | ---- |
 | 3 | Introduction [ppt](slides/01-CourseOverview.pdf) |1. IT领域·巨星偶像。 [纪念艾伦•图灵百年诞辰](http://songshuhui.net/archives/69786/) **不做火星人** <br> 2. 技术宅的快乐。 [“韩国小姐”的脸到底有多相似？](http://www.guokr.com/article/436974/) **科学与娱乐** <br> 3. 创意发现与书写。[腾讯创意](http://djt.qq.com/page/178) | 作业1：名词解释【中英文】 <br>项目1-1：[用 Markdown 语言写博客](markdown.html) |
-| 4 | Number System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/02-NumberSystem.pdf) |1. 程序员人生：《黑客与画家》第二章 | 作业2： 见课件 <br> 项目2-1：[制作HTML5游戏1](game1.html) <br> 项目1-2：写一篇游戏开发技术博客 |
+| 4 | Number System [ppt](slides/02-NumberSystem.pdf) |1. 程序员人生：《黑客与画家》第二章 | 作业2： 见课件 <br> 项目2-1：[制作HTML5游戏1](game1.html) <br> 项目1-2：写一篇游戏开发技术博客 |
 | 5 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
 | 6 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
 | 7 | Gates and Circuits    [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/04-GatesCircuits.pdf) | IT产业规律：《浪潮之巅》第4章 计算机工业的生态链 |作业5：见课件 <br>  项目3-1：[用电路做加法](hardware1.html)  <br> 项目1-5：按项目3-1要求写一篇技术博客 |
