@@ -4,34 +4,47 @@ title: 使用 Git 提交作业
 ---
 
 # 使用 Git 提交作业
-{:.no_toc}
 
 * 目录
-{:toc}
+
+
+- [使用 Git 提交作业](#使用-git-提交作业)
+    - [1、Github What & Why](#1github-what--why)
+    - [2、GitHub 环境准备](#2github-环境准备)
+        - [2.1 注册 GitHub 账号](#21-注册-github-账号)
+        - [2.2 安装 git 管理⼯具](#22-安装-git-管理⼯具)
+        - [2.3 配置 git 用户](#23-配置-git-用户)
+        - [2.4 安装 vscode](#24-安装-vscode)
+    - [3、开始作业之旅](#3开始作业之旅)
+        - [3.1 初识仓库](#31-初识仓库)
+        - [3.2 创建作业仓库](#32-创建作业仓库)
+        - [3.3 编辑并提交第一次作业](#33-编辑并提交第一次作业)
+
 
 ## 1、Github What & Why
 
-gitHub 是一个面向开源及私有软件项目的托管平台。作为开源代码库以及版本控制系统，Github拥有超过千万开发者用户，随着越来越多的应用程序转移到了云上，Github已经成为了管理软件开发以及发现已有代码的首选平台。
+GitHub 是一个面向开源及私有软件项目的托管平台。作为开源代码库以及版本控制系统，GitHub拥有超过千万开发者用户，随着越来越多的应用程序转移到了云上，GitHub已经成为了管理软件开发以及发现已有代码的首选平台。
 
-* 使用 Github，管理你的大学阶段乃至未来你所有的程序代码，观察自己的成长轨迹。
-* 使用 Github，组建自己的软件开发团队或加入其他团队，与全球伙伴协同开发有趣的软件。
-* 使用 GitPage，依托 Github，作为文档托管空间，介绍你的项目、记录与分享技术学习经验。
+* 使用 GitHub，管理你的大学阶段乃至未来你所有的程序代码，观察自己的成长轨迹。
+* 使用 GitHub，组建自己的软件开发团队或加入其他团队，与全球伙伴协同开发有趣的软件。
+* 使用 GitPage，依托 GitHub，作为文档托管空间，介绍你的项目、记录与分享技术学习经验。
 * 使用 GitPage，建立你的专业、个性化的博客，突出作为计算机专业学生的优势。
 
-用 github 做作业，你需要注意的事项：
+用 GitHub 做作业，你需要注意的事项：
 
 * 系统会记录你提交内容的历史，且无法删除
 * 作业是公开的，任何人都可以随时检查
-* 请慎言！在 github 上 **妄议时政** 是低级、可笑的错误
+* 请慎言！在 GitHub 上 **妄议时政** 是低级、可笑的错误
 
-## 2、Github 环境准备
+## 2、GitHub 环境准备
 
-### 2.1 注册 Github 账号
+### 2.1 注册 GitHub 账号
 
-进入 [github ⽹站](https://github.com/) 注册⼀个⾃⼰的账户
+进入 [GitHub ⽹站](https://github.com/) 注册⼀个⾃⼰的账户
 
 `https://github.com/your-account` 就是你 Github 的首页。你所有的文档、代码及其历史都保存在其中的仓库（Repositories
 ）中。
+
 
 
 ### 2.2 安装 git 管理⼯具
@@ -40,7 +53,7 @@ gitHub 是一个面向开源及私有软件项目的托管平台。作为开源�
 
 ![](images/homework-helper/git-download.png)
 
-github下载文件，**[提示链接超时的问题解决办法](https://blog.csdn.net/cym1990/article/details/78173128)**
+GitHub下载文件，**[提示链接超时的问题解决办法](https://blog.csdn.net/cym1990/article/details/78173128)**
 
 **windows 用户**
 
@@ -55,11 +68,15 @@ github下载文件，**[提示链接超时的问题解决办法](https://blog.cs
 
 **Mac 用户**
 
-期待你的补充
+安装完成后，打开终端输入一下命令，出现以下提示，说明安装成功！
+![](images/homework-helper/git-term-mac.png)
+* 命令 `cd ~` 进入用户根目录
+* 命令 `git --version` 显示 git 工具的版本
 
 **Linux 用户**
 
 期待你的补充
+
 
 ### 2.3 配置 git 用户
 
@@ -71,7 +88,7 @@ $ git config --global user.email "email@example.com"
 $ git config --global credential.helper store
 ```
 
-注意：邮箱必须与 github 注册邮箱一致
+注意：邮箱必须与 GitHub 注册邮箱一致
 
 以后，只要第一次提交输入密码，以后就 **免密码** 了！
 
@@ -91,8 +108,8 @@ window、mac、linux 通杀的平台，还不快到[官网]((https://code.visual
 
 **创建新仓库**
 
-1、登陆 github 网站   
-2、网页右上角 `+` 菜单，`Mew repository`  
+1、登陆 GitHub 网站   
+2、网页右上角 `+` 菜单，`New repository`  
 
 ![](images/homework-helper/new-repo.png)
 
@@ -119,7 +136,7 @@ window、mac、linux 通杀的平台，还不快到[官网]((https://code.visual
 
 ![](images/homework-helper/vs-commit.png)
 
-5、推送（Push）到 github 网站的仓库
+5、推送（Push）到 GitHub 网站的仓库
 
 ![](images/homework-helper/vs-push.PNG)
 
