@@ -28,7 +28,7 @@ Construct 2：https://www.scirra.com/construct2
 
 **3、下载安装**
 
-* 参考官方安装指南 https://www.scirra.com/manual/2/installing
+* 参考官方 [安装指南](https://www.scirra.com/manual/2/installing) 
 * 该工具仅是本课程的一个教学案例，free的版本已满足教学的要求
   * 除非特别喜欢，请不要购买
   * 不建议下载任何“解密版本”，可能是病毒
@@ -37,7 +37,7 @@ Construct 2：https://www.scirra.com/construct2
 
 &emsp;&emsp;计算机理论固然重要，实践-“做中学”才是快速学习的基本途径。现在你的任务就是完成入门教程。
 
-&emsp;&emsp;**Beginner's guide to Construct 2** https://www.scirra.com/tutorials/top
+&emsp;&emsp;**Beginner's guide to Construct 2** 网址：https://www.scirra.com/tutorials/top
 
 
 ### 任务要求
