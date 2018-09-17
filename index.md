@@ -80,6 +80,7 @@ layout: default
 作业帮助资料：
 
 * 陈师姐 [开启在线作业之旅，让作业也有软件专业的特色！](homework-start)
+* 窦师兄 [如何使用 Github 获得师兄师姐帮助](https://github.com/sysu-swi/sysu-swi.github.io/issues/2)
 
 **4、我没有电脑，怎么办？**
 
