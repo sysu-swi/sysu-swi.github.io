@@ -31,10 +31,10 @@
 
 ### 实验步骤
 
-（1）使用百度，尽可能多的了解MarkDown语言的历史及用途。   
-（2）在 github 上申请一个账号，开始你的[在线作业（博客）之旅](https://sysu-swi.github.io/homework-start)。
-（3）尝试在 csdn 用 Markdown 写一个博客。  
-（4）不明白之处，找教学助理！
+（1）使用百度，尽可能多的了解MarkDown语言的历史及用途   
+（2）在 github 上申请一个账号，开始你的[在线作业（博客）之旅](https://sysu-swi.github.io/homework-start)  
+（3）先在 github 提交 lab01.md  
+（4）尝试到 csdn 或其他公共博客网站发布该文，自我总结用 markdown 写作的优势    
 
 ### 任务要求
 
