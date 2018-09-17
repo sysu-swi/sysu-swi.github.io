@@ -55,7 +55,10 @@ github下载文件，**[提示链接超时的问题解决办法](https://blog.cs
 
 **Mac 用户**
 
-期待你的补充
+安装完成后，打开终端输入一下命令，出现以下提示，说明安装成功！
+![](images/homework-helper/git-term-mac.png)
+* 命令 `cd ~` 进入用户根目录
+* 命令 `git --version` 显示 git 工具的版本
 
 **Linux 用户**
 
@@ -92,7 +95,7 @@ window、mac、linux 通杀的平台，还不快到[官网]((https://code.visual
 **创建新仓库**
 
 1、登陆 github 网站   
-2、网页右上角 `+` 菜单，`Mew repository`  
+2、网页右上角 `+` 菜单，`New repository`  
 
 ![](images/homework-helper/new-repo.png)
 
