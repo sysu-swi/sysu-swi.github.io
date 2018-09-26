@@ -92,8 +92,8 @@ layout: default
 |:--:| ---- | ---- | ---- |
 | 3 | Introduction [ppt](slides/01-CourseOverview.pdf) |1. IT领域·巨星偶像。 [纪念艾伦•图灵百年诞辰](http://songshuhui.net/archives/69786/) **不做火星人** <br> 2. 技术宅的快乐。 [“韩国小姐”的脸到底有多相似？](http://www.guokr.com/article/436974/) **科学与娱乐** <br> 3. 创意发现与书写。[腾讯创意](http://djt.qq.com/page/178) | 作业1：名词解释【中英文】 <br>项目1-1：[用 Markdown 语言写博客](markdown.html) |
 | 4 | Number System [ppt](slides/02-NumberSystem.pdf) |1. 程序员人生：《黑客与画家》第二章 | 作业2： 见课件 <br> 项目2-1：[制作HTML5游戏1](game1.html) <br> 项目1-2：写一篇游戏开发技术博客 |
-| 5 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
-| 6 | Data Representation [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
+| 5 | Data Representation [ppt](slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
+| 6 | Data Representation [ppt](slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
 | 7 | Gates and Circuits    [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/04-GatesCircuits.pdf) | IT产业规律：《浪潮之巅》第4章 计算机工业的生态链 |作业5：见课件 <br>  项目3-1：[用电路做加法](hardware1.html)  <br> 项目1-5：按项目3-1要求写一篇技术博客 |
 | 8 | Computing Components [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
 | 9 | Programming on Bare Machine [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/06-13ProgrammingBarely.pdf) | &emsp; | 作业7：见课件 <br> 项目3-2：[机器语言编程](hardware2.html) <br> 项目1-7：按项目2-2要求介绍小游戏及其软件设计 |
