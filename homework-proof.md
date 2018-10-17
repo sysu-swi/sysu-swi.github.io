@@ -24,5 +24,5 @@ title: 使用 Letax 公式
 
 Proof:
 
-$ /because Positional Notation x = \sum_{i=1}^{n}d_iR^{i-1} $
+$ /because Positional Notation x = \sum_{i=1}^{n}d_{i}R^{i-1} $
 
