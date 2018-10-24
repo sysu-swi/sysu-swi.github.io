@@ -95,7 +95,7 @@ layout: default
 | 5 | Data Representation [ppt](slides/03-DataRepresentation-1.pdf) | 软件与创业：《黑客与画家》第五章 | 作业3： 见课件 <br> 项目2-2：[制作HTML5游戏2](game2.html) <br> 项目1-3：写一篇博客推荐、介绍IT相关的书籍、电影、人物、媒体、玩具等等 |
 | 6 | Data Representation [ppt](slides/03-DataRepresentation-2.pdf) |编码的世界：《编码(Code)》第一章  | 作业4：见课件 <br> 项目1-4：写一篇技术科普博客，如色彩表示与编码 |
 | 7 | Gates and Circuits    [ppt](slides/04-GatesCircuits.pdf) | IT产业规律：《浪潮之巅》第4章 计算机工业的生态链 |作业5：见课件 <br>  项目3-1：[【选做】用电路做加法](hardware1.html)  <br> 项目1-5：按项目3-1要求写实验报告 |
-| 8 | Computing Components [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
+| 8 | Computing Components [ppt](slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 【选做】项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
 | 9 | Programming on Bare Machine [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/06-13ProgrammingBarely.pdf) | &emsp; | 作业7：见课件 <br> 项目3-2：[机器语言编程](hardware2.html) <br> 项目1-7：按项目2-2要求介绍小游戏及其软件设计 |
 | 10 | 期中考试 | &emsp; | &emsp; |
 | 11 | Problem Solving and Algorithm [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/07-13ProblemSolving.pdf) | 伪代码规范：[Pseudocode Standard](http://users.csc.calpoly.edu/~jdalbey/SWE/pdl_std.html)| 作业8：见课件 <br> 项目1-8：写一个博客，介绍“自顶向下，逐步求精”的编程方法，并以你观察的洗衣机为案例，用伪代码描述的控制程序设计 |
