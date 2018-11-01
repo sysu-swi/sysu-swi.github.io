@@ -16,15 +16,15 @@
 **实验环境环境**
 
 * windows 7 或 **以下**
-* IE 8 或 **以下**
-* Java Runtime Environment 1.6（JRE 6.0） **以下**
+* 浏览器 IE 8 或 **以下**
+* Java Runtime Environment 1.6（JRE 6.0）或 **以下**
 
 **网址**
 
 * http://www.science.smith.edu/~jcardell/Courses/CSC103/CPUsim/cpusim.html
 
 
-*如果你不符合以上要求，则需要安装虚拟机*
+*如果你的设备不符合以上要求，则需要安装虚拟机*
 
 ### 三、实验步骤
 
