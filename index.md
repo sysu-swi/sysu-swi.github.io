@@ -82,6 +82,7 @@ layout: default
 * 陈师姐 [开启在线作业之旅，让作业也有软件专业的特色！](homework-start)
 * 窦师兄 [如何使用 Github 获得师兄师姐帮助](https://github.com/sysu-swi/sysu-swi.github.io/issues/2)
 * [数学公式与证明](https://sysu-swi.github.io/homework/homework-proof)
+* 18342020 提供：使用 EveryCircuit 手机 app 完成 [用电路做加法](https://guojiayii.github.io/swi-homework/refined%20circuit%20hw)
 
 **4、我没有电脑，怎么办？**
 
