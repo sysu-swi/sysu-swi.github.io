@@ -28,7 +28,7 @@
 
 ### 三、实验步骤
 
-启动 win 7 虚拟机, 我们看到桌面上有两个 IE 图标 ：`CPUSIM` 和 `The Pippin Guard!` 
+启动 win 7 ， 使用 ie8 访问上述网址
 
 *运行 cpusim 会出现如下提示*
 
@@ -40,7 +40,7 @@
 
 **任务 1：简单程序**
 
-（1）打开网页 The PIPPIN User's Guide ，然后输入 Program 1：Add 2 number
+（1）打开网页 [The PIPPIN User's Guide](slides/The PIPPIN User's Guide.html) ，然后输入 Program 1：Add 2 number
 
 （2）点step after step。观察并回答下面问题：
 
@@ -76,14 +76,14 @@
 
 请按任务1、2 要求，按次序回答问题。
 
-实验提交方式：学号-姓名-汇编实验报告.pdf 到 matrix
+实验提交方式: 提交到 Github！
 
 实验报告是正式的文档，请满足以下需求：
 
 1. 有封面，包括实验名称、学号、姓名
 2. 目录页
 3. 实验目标
-4. 实验步骤与结果 （屏幕截图，务必用 png 格式嵌入 word，再转pdf）
+4. 实验步骤与结果 （屏幕截图，务必用 png 格式）
 5. 实验小结（必须回应实验目标达成情况）
 
 ### 五、附加实验

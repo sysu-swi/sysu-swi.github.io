@@ -1,0 +1,781 @@
+<html>
+<head>
+    <title>The PIPPIN User's Guide</title>
+<!--
+    ********************************************************************
+    pippin.htm      The Analytical Engine, Decker & Hirshfield,
+                    Ch 6.2, pp. 207-216
+
+    Mike Huffman
+    Portland Community College
+    Computer Information Systems
+
+    !-- ~~~~~~~~~~~~~~~~~~~~~~~~
+    Revised: 23 JUN 2004 11:09 ~
+    ********************************************************************
+-->
+</head>
+
+<body>
+
+<center>
+    <h2><a NAME="TOP">The PIPPIN User's Guide</a></h2>
+</center>
+
+<center>
+
+<table WIDTH="80%">
+<tr VALIGN=center>
+    <td> from <a href="http://www.mhuffman.com/notes/">MHuffman notes </a> </td>
+
+</tr>
+</table>
+
+</center>
+<hr NOSHADE WIDTH="80%">
+
+<p>
+<ul>
+    <a HREF="#INSR">PIPPIN Instruction Set</a><br>
+    <a HREF="#PROG1">Program 1:</a> Add 2 numbers<br>
+    <a HREF="#PROG2">Program 2:</a> Count down loop<br>
+
+</ul>
+</p>
+
+<hr NOSHADE WIDTH="80%">
+
+<a NAME="INST"></a>
+<center><h3>PIPPIN Instruction Set</h3>
+    <blockquote>
+        Ref: <i>The Analytical Engine</i> p. 211
+    </blockquote>
+</center>
+
+<p>
+
+<b>Note:</b><br>
+The purpose and intent of the <b>AND</b> instruction is not clear and is
+not included in the following table. The <b>PIPPIN</b> simulator
+included on the CD and at the authors' Web site places 0 in the
+accumulator regardless of the input to <b>AND</b>.<br>
+<br>
+
+<table BORDER=1 BORDERCOLORDARK=#C0C0C0 BORDERCOLORLIGHT=#C0C0C0
+       CELLPADDING=5 CELLSPACING=0  WIDTH="100%">
+
+<tr>
+    <th COLSPAN=2>Opcode | Operand</th>
+    <th WIDTH="10%" ROWSPAN=2>Assembly Instruction</th>
+    <th WIDTH="70%" COLSPAN=3 ROWSPAN=2>Description</th>
+</tr>
+
+<tr>
+    <th WIDTH="15%">Binary</th>
+    <th WIDTH="5%">Hex</th>
+
+</tr>
+
+<!-- ADD direct     ADD X       00 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000000&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>00&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>ADD&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Add contents of referenced memory address to contents of accumulator.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp;
+         Add value stored at memory address 128 (10000000 binary, 80 hex,
+         variable W) to contents of accumulator.
+    </td>
+
+</tr>
+<tr>
+    <td WIDTH="30%" BGCOLOR="#ECECEC"><tt>00000000&nbsp;10000000</tt></td>
+    <td WIDTH="15%" BGCOLOR="#ECECEC"><tt>00&nbsp;10</tt></td>
+    <td WIDTH="20%" BGCOLOR="#ECECEC">ADD&nbsp;W</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- ADD immediate  ADD #n      10  XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00010000&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>10&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>ADD #<i>n</b></i></tt></td>
+    <td COLSPAN=3>
+
+        Add immediate value to contents of accumulator.<br>
+        <i>Address Mode = Immediate</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example: </b>&nbsp;
+        Add the number 45 (00101101 binary, 2D hex) to accumulator:
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00010000&nbsp;00101101</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>10&nbsp;2D</tt></td>
+    <td BGCOLOR="#ECECEC">ADD&nbsp;#45</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- SUB direct     SUB X       01 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000001&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>01&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>SUB&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Subtract contents of referenced memory address from contents of
+        accumulator.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp;
+         Subtract value stored at memory address 129 (10000001 binary, 81 hex,
+         variable X) from accumulator.
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00000001&nbsp;10000001</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>01&nbsp;11</tt></td>
+    <td BGCOLOR="#ECECEC">SUB&nbsp;X</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- SUB immediate  SUB #n      11  XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00010001&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>11&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>SUB #<i>n</b></i></tt></td>
+    <td COLSPAN=3>
+
+        Subtract immediate value from contents of accumulator.<br>
+        <i>Address Mode = Immediate</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example: </b>&nbsp;
+        Subtract the number 27 (00011011 binary, 1B hex) from accumulator:
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00010001&nbsp;00011011</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>11&nbsp;1B</tt></td>
+    <td BGCOLOR="#ECECEC">SUB&nbsp;#27</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- MUL direct     MUL X       02 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000010&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>02&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>MUL&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Multiply contents of accumulator by 8-bit value stored at
+        referenced memory address.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Multiply accumulator by value stored at memory
+        address 130 (10000010 binary, 82 hex, variable Y).
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00000010&nbsp;10000010</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>02&nbsp;12</tt></td>
+    <td BGCOLOR="#ECECEC">MUL&nbsp;Y</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- MUL immediate  MUL #n      12  XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00010010&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>12&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>MUL #<i>n</b></i></tt></td>
+    <td COLSPAN=3>
+
+        Multiply contnets of accumulator by immediate value.<br>
+        <i>Address Mode = Immediate</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example: </b>&nbsp;
+        Multiply accumulator by the number 5 (00000101 binary, 05 hex):
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00010010&nbsp;00000101</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>12&nbsp;05</tt></td>
+    <td BGCOLOR="#ECECEC">MUL&nbsp;#5</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- DIV direct     DIV X       03 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000011&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>03&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>DIV&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Divide contents of accumulator by 8-bit value stored at
+        referenced memory address.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Divide accumulator by value stored at memory
+        address 131 (10000011 binary, 83 Hex, variable Z).
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00000011&nbsp;10000011</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>03&nbsp;13</tt></td>
+    <td BGCOLOR="#ECECEC">DIV&nbsp;Z</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- DIV immediate  DIV #n      13  XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00010011&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>13&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>DIV #<i>n</b></i></tt></td>
+    <td COLSPAN=3>
+
+        Divide contnets of accumulator by immediate value.<br>
+    <i>Address Mode = Immediate</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example: </b>&nbsp;
+        Divide accumulator by the number 10 (00001010 binary, 0A hex):
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00010011&nbsp;00001010</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>13&nbsp;0A</tt></td>
+    <td BGCOLOR="#ECECEC">DIV&nbsp;#10</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- LOD direct     LOD X       04 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000100&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>04&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>LOD&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Load the accumulator with the 8-bit value stored at
+        referenced memory address.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Place value stored at memory
+        address 132 (10000100, 84 Hex, variable T1) into accumulator.
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00000011&nbsp;10000011</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>03&nbsp;13</tt></td>
+    <td BGCOLOR="#ECECEC">DIV&nbsp;Z</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- LOD immediate  LOD #n      14  XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00010100&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>13&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>LOD #<i>n</b></i></tt></td>
+    <td COLSPAN=3>
+
+        Load the accumulator with an immediated value.<br>
+        <i>Address Mode = Immediate</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Place the number 100 (01100100 binary, 64 hex)
+        into accumulator.
+    </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00010100&nbsp;01100100</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>14&nbsp;64</tt></td>
+    <td BGCOLOR="#ECECEC">LOD&nbsp;#100</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- STO direct     STO X       05 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00000101&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>05&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>STO&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+
+        Store the contents of the accumulator into the referenced memory
+        address.<br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Save value of accumulator in memory address 133
+        (10000101 binary, 85 hex, variable T2).
+     </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00000101&nbsp;10000101</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>05&nbsp;15</tt></td>
+    <td BGCOLOR="#ECECEC">STO&nbsp;T2</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- NOT direct     NOT X       09 XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td><tt>00001001&nbsp;00000000</tt></td>
+    <td><tt>09&nbsp;00</tt></td>
+    <td><tt><b>NOT</b></tt></td>
+    <td COLSPAN=3>
+        If the accumulator contains 0 then set the accumulator to 1;
+        otherwise set the accumulator to 1.<br>
+
+        Assume any non-zero value = TRUE and 0 = FALSE; NOT inverts
+        the "truth" of the accumulator.
+    </td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- CPZ direct     CPZ X       0A XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00001010&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>0A&nbsp;XX</tt></td>
+
+    <td ROWSPAN=3><tt><b>CPZ&nbsp;X</b></tt></td>
+    <td COLSPAN=3>
+        Compare X with Zero; if the contents of the referenced memory address
+        = 0, set the accumulator to 1 (TRUE), otherwise set accumulator to 0
+        (FALSE). e.g. TRUE or FALSE: "Does X = 0? <br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+
+        <b>Example:</b> &nbsp; Set the accumulator to 1 (TRUE) or 0 (FALSE) depending
+        on whether the value in memory address 129 (10000001 binary, 81 Hex, variable X)
+        = 0.
+     </td>
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00001010&nbsp;10000001</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>0A&nbsp;11</tt></td>
+    <td BGCOLOR="#ECECEC">CPZ&nbsp;X</td>
+
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- CPL direct     CPL X       0B XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00001011&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>0B&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>CPL&nbsp;X</b></tt></td>
+
+    <td COLSPAN=3>
+        Compare X with Zero; if the contents of the referenced memory
+        address is LESS than 0, set the accumulator to 1 (TRUE),
+        otherwise set accumulator to 0 (FALSE). e.g. TRUE or FALSE:
+        "Is X &lt; 0? <br>
+        <i>Address Mode = Direct</i>
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Set the accumulator to 1 (TRUE) or 0 (FALSE) depending
+        on whether the value in memory address 130 (10000010 binary, 82 Hex, variable Y)
+        &lt; 0.
+     </td>
+
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00001011&nbsp;10000010</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>0B&nbsp;10</tt></td>
+    <td BGCOLOR="#ECECEC">CPL&nbsp;Y</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- JMP direct     JMP X       0C XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00001100&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>0C&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>JMP&nbsp;<i>n</i></b></tt></td>
+    <td COLSPAN=3>
+
+        Unconditional Jump: Set PC to <i>n</i> and execute instruction at
+        that address.
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Execute instruction at memory address 14
+        (00001110 binary, 0E hex).
+     </td>
+</tr>
+
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00001110&nbsp;00001110</tt></td>
+    <td BGCOLOR="#ECECEC"><tt>0C&nbsp;0E</tt></td>
+    <td BGCOLOR="#ECECEC">JMP&nbsp;14</td>
+</tr>
+
+<tr><td COLSPAN=6></td></tr>
+
+<!-- JMZ direct     JMZ X       0A XX -->
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=3><tt>00001101&nbsp;bbbbbbbb</tt></td>
+    <td ROWSPAN=3><tt>0D&nbsp;XX</tt></td>
+    <td ROWSPAN=3><tt><b>JMZ&nbsp;<i>n</i></b></tt></td>
+    <td COLSPAN=3>
+        Conditional Jump: Set PC to <i>n</i> and execute instruction at
+        that address IF the accumulator = 0; otherwise go to next instruction.<br>
+
+    </td>
+</tr>
+<tr>
+    <td COLSPAN=3 BGCOLOR="#ECECEC">
+        <b>Example:</b> &nbsp; Execute instruction at memory address 4
+        (00000100 binary, 04 hex) IF the accumulator is 0.
+     </td>
+</tr>
+<tr>
+    <td BGCOLOR="#ECECEC"><tt>00001101&nbsp;00000100</tt></td>
+
+    <td BGCOLOR="#ECECEC"><tt>0D&nbsp;04</tt></td>
+    <td BGCOLOR="#ECECEC">JMZ&nbsp;4</td>
+</tr>
+
+<tr><td COLSPAN=9></td></tr>
+
+<!-- NOP -->
+<tr ALIGN=left  VALIGN=center>
+    <td><tt>00001110&nbsp;00000000</tt></td>
+
+    <td><tt>0E&nbsp;00</tt></td>
+    <td><tt><b>NOP</b></tt></td>
+    <td COLSPAN=3>
+        No operation; do nothing and go to next instruction.
+     </td>
+</tr>
+
+<tr><td COLSPAN=9></td></tr>
+
+<!-- HLT -->
+
+<tr ALIGN=left  VALIGN=center>
+    <td ROWSPAN=2><tt>00001111&nbsp;00000000</tt></td>
+    <td ROWSPAN=2><tt>0F&nbsp;00</tt></td>
+    <td ROWSPAN=2><tt><b>HLT</tt></td>
+    <td COLSPAN=3>
+
+        Halt execution; Control Unit does not fetch any more instructions.
+     </td>
+
+</tr>
+
+</table>
+<br>
+
+<center>
+[ <a HREF="#TOP">TOP</a> ]
+</center>
+</p>
+
+<hr WIDTH="80%" NOSHADE>
+
+<p>
+<center>
+
+<a NAME="PROG1"></a>
+<b>PROGRAM 1:</b><br>
+Load 2 numbers and add them<br>
+
+<table BORDER=1 BORDERCOLORDARK=#C0C0C0 BORDERCOLORLIGHT=#C0C0C0
+       CELLPADDING=5 CELLSPACING=0  WIDTH="60%">
+<tr>
+    <th WIDTH="5%">Address</th>
+    <th WIDTH="15%">Instruction</th>
+    <th WIDTH="10%">Accum</th>
+
+    <th WIDTH="10%">W</th>
+    <th WIDTH="10%">X</th>
+    <th WIDTH="10%">Y</th>
+</tr>
+
+<tr>
+    <td>00</td>
+    <td><tt>LOD #3</tt></td>
+
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+</tr>
+
+<tr>
+    <td>02</td>
+
+    <td><tt>STO W</tt></td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+</tr>
+
+<tr>
+    <td>04</td>
+    <td><tt>LOD #7</tt></td>
+    <td>7</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+
+</tr>
+
+<tr>
+    <td>06</td>
+    <td><tt>STO X</tt></td>
+    <td>7</td>
+    <td>3</td>
+    <td>7</td>
+
+    <td>0</td>
+</tr>
+
+<tr>
+    <td>08</td>
+    <td><tt>ADD W</tt></td>
+    <td>10</td>
+    <td>3</td>
+
+    <td>7</td>
+    <td>0</td>
+</tr>
+
+<tr>
+    <td>10</td>
+    <td><tt>STO Y</tt></td>
+    <td>10</td>
+
+    <td>3</td>
+    <td>7</td>
+    <td>10</td>
+</tr>
+
+<tr>
+    <td>12</td>
+    <td><tt>HLT</tt></td>
+
+    <td>10</td>
+    <td>3</td>
+    <td>7</td>
+    <td>10</td>
+</tr>
+
+<tr>
+    <td><b> . . . </b></td>
+
+    <td><b> . . . </b></td>
+    <td COLSPAN=4>&nbsp;</td>
+</tr>
+
+
+<tr>
+    <td>128</td>
+    <td><tt>W</tt></td>
+    <td COLSPAN=4>&nbsp;</td>
+
+</tr>
+
+<tr>
+    <td>129</td>
+    <td><tt>X</tt></td>
+    <td COLSPAN=4>&nbsp;</td>
+</tr>
+
+<tr>
+    <td>130</td>
+
+    <td><tt>Y</tt></td>
+    <td COLSPAN=4>&nbsp;</td>
+</tr>
+
+</table>
+</center>
+<br>
+
+<h4>PIPPIN memory after program execution:</h4>
+
+<pre>
+    <b>    00  01  02  03  04  05  06  07  08  09  0A  0B  0C  0D  0E  0F</b>
+
+    <b>00</b>  14  03  05  80  14  07  05  81  00  80  05  82  0F  00  00  00
+    <b>01</b>  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
+    <b>..</b>  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..
+    <b>07</b>  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
+
+    <b>08</b>  03  07  0A  00  00  00  00  00  00  00  00  00  00  00  00  00
+    <b>09</b>  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
+    <b>..</b>  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..  ..
+    <b>0F</b>  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
+
+</pre>
+
+<b>Note:</b> &nbsp; 2-byte instructions (opcode + operand) mapped at
+bottom of memory starting at address <tt>00</tt>.<br>
+
+<b>Note:</b> &nbsp; Memory addresses <tt>80</tt> hex through <tt>82</tt>
+
+hex (128 - 130 decimal) represented by <b>W</b>, <b>X</b>, and <b>Y</b><br>
+
+<br>
+<center>
+    [ <a HREF="#TOP">TOP</a> ]<br>
+    <br>
+
+    <a NAME="CPUSIM"></a>
+    <a HREF="http://www.course.com/downloads/computerscience/aeonline/applets/cpu-sim/CPUSim.html">
+    PIPPIN Simulator</a>
+</center>
+
+<hr NOSHADE WIDTH="80%">
+
+<p>
+<center>
+<a NAME="PROG2"></a>
+<b>PROGRAM 2:</b><br>
+Count down loop<br>
+
+    <table BORDER=1 CELLPADDING=4 CELLSPACING=0 WIDTH="80%">
+
+    <tr>
+        <th WIDTH="10%">Address</th>
+        <th WIDTH="30%">Instruction</th>
+        <th WIDTH="15%">Accum<br>Pass 1</th>
+        <th WIDTH="15%">Accum<br>Pass 2</th>
+
+        <th WIDTH="15%">Accum<br>Pass 3</th>
+    </tr>
+
+    <tr>
+        <td>00</td><td><b><tt>LOD X</tt></b></td><td ALIGN=center>3</td>
+        <td ALIGN=center>2</td><td ALIGN=center>1</td>
+
+    </tr>
+    <tr>
+        <td>02</td><td><b><tt>SUB #1</tt></b></td><td ALIGN=center>2</td>
+        <td ALIGN=center>1</td><td ALIGN=center>0</td>
+    </tr>
+    <tr>
+
+        <td>04</td><td><b><tt>JMZ 10</tt></b></td><td ALIGN=center>2</td>
+        <td ALIGN=center>1</td><td ALIGN=center>0</td>
+    </tr>
+    <tr>
+        <td>06</td><td><b><tt>STO X</tt></b></td><td ALIGN=center>2</td>
+
+        <td ALIGN=center>1</td><td ALIGN=center>***</td>
+    </tr>
+    <tr>
+        <td>08</td><td><b><tt>JMP 0</tt></b></td><td ALIGN=center>2</td>
+        <td ALIGN=center>1</td><td ALIGN=center>***</td>
+
+    </tr>
+    <tr>
+        <td>10</td><td><b><tt>HLT</tt></b></td><td ALIGN=center>***</td>
+        <td ALIGN=center>***</td><td ALIGN=center>0</td>
+    </tr>
+
+    <tr>
+
+        <th COLSPAN=2>Initial Memory Values</th>
+        <th>Memory<br>Pass 1</th><th>Memory<br>Pass 2</th>
+        <th>Memory<br>Pass 3</th>
+    </tr>
+
+    <tr>
+
+        <td><b><tt>W</tt></b> (128)</td><td>???</td><td ALIGN=center>???</td>
+        <td ALIGN=center>???</td><td ALIGN=center>???</td>
+    </tr>
+    <tr>
+        <td><b><tt>X</tt></b> (129)</td><td>3</td><td ALIGN=center>2</td>
+
+        <td ALIGN=center>1</td><td ALIGN=center>1</td>
+    </tr>
+    <tr>
+        <td><b><tt>Y</tt></b> (130)</td><td>???</td><td ALIGN=center>???</td>
+        <td ALIGN=center>???</td><td ALIGN=center>???</td>
+
+    </tr>
+    </table>
+    <br>
+</center>
+
+<center>
+    [ <a HREF="#TOP">TOP</a> ]<br>
+    <br>
+
+    <a NAME="CPUSIM"></a>
+    <a HREF="http://www.course.com/downloads/computerscience/aeonline/applets/cpu-sim/CPUSim.html">
+    PIPPIN Simulator</a>
+</center>
+
+
+<hr NOSHADE>
+    <!-- ~~~~~~~~~~~~~~~~~ -->
+    Revised: 23 JUN 2004 11:09
+
+</body>
+</html>
+
