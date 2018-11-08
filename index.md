@@ -100,8 +100,8 @@ layout: default
 | 8 | Computing Components [ppt](slides/05-ComputingComponents.pdf) | IT产业规律：《浪潮之巅》第14章 信息产业的规律  <br> 调查与研究：收集并总结一些IT领域产品的发展案例，用摩尔定律等去解释 | 作业6：见课件 <br> 【选做】项目1-6：用IT规律解释你观察到或了解的技术、经济和社会现象，博客题目自拟。如“摩尔定律还有效吗？” ，“小米手机抢购背后的XX律” 等等|
 | 9 | Programming on Bare Machine [ppt](slides/06-13ProgrammingBarely.pdf) | &emsp; | 作业7：见课件 <br> 项目3-2：[机器语言编程](hardware2.html) <br> 项目1-7：按项目2-2要求介绍小游戏及其软件设计 |
 | 10 | 期中考试 | &emsp; | &emsp; |
-| 11 | Problem Solving and Algorithm [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/07-13ProblemSolving.pdf) | 伪代码规范：[Pseudocode Standard](http://users.csc.calpoly.edu/~jdalbey/SWE/pdl_std.html)| 作业8：见课件 <br> 项目1-8：写一个博客，介绍“自顶向下，逐步求精”的编程方法，并以你观察的洗衣机为案例，用伪代码描述的控制程序设计 |
-| 12 | Problem Solving and OO Design [ppt]()| 风云人物与计算机语言：<br> 1. 《奇思妙想》第一部分 如何与计算机对话（前言) <br> 2. 《奇思妙想》第1章 约翰·巴科斯 |  作业9：见课件 <br> 项目4：[Python 交互式编程](python.html) <br> 1-9：写一个博客关于 IT 伦理与道德的博客。[具体要求](markdown-it-ethic.html)|
+| 11 | Problem Solving and Algorithm [ppt](slides/07-13ProblemSolving.pdf) | 伪代码规范：[Pseudocode Standard](http://users.csc.calpoly.edu/~jdalbey/SWE/pdl_std.html)| 作业8：见课件 <br> 项目1-8：写一个博客，介绍“自顶向下，逐步求精”的编程方法，并以你观察的洗衣机为案例，用伪代码描述的控制程序设计 |
+| 12 | Problem Solving and OO Design [ppt](slides/07-13OOProgramoing.pdf)| 风云人物与计算机语言：<br> 1. 《奇思妙想》第一部分 如何与计算机对话（前言) <br> 2. 《奇思妙想》第1章 约翰·巴科斯 |  作业9：见课件 <br> 项目4：[Python 交互式编程](python.html) <br> 1-9：写一个博客关于 IT 伦理与道德的博客。[具体要求](markdown-it-ethic.html)|
 | 13 | Abstract Data Types and Algorithms [ppt]() | 风云人物与计算机语言：<br> 3. 《奇思妙想》第2章 约翰·麦卡锡 <br> 4. 《奇思妙想》第3章 艾伦·C·凯 | 作业10：见课件 <br>项目1-10：写一篇博客简介某计算机语言历史。[具体要求](markdown-lang.html) <br> 用实例讲述一些排序的算法过程（越直观越好）!加分项|
 | 14 | Abstract Data Types and Algorithms | 风投与IT产业：<br> 1. 《浪潮之巅》第13章 风险投资 <br> 2. 《浪潮之巅》第7章 思科 |  作业11：见课件 <br> 项目5-1：[字符游戏-贪吃蛇](snake-game1.html) <br> 项目1-11：完成相关阅读，以博客形式写有关IT行业风投的知识、事件等，请重点关注风投与中国 |
 | 15 | Operation System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/09-OperationSystem.pdf) | 互联网经济与新思维：<br> 1. 《浪潮之巅》第8章 雅虎公司 <br> 2. 《浪潮之巅》第19章 商业模式 | 项目5-2：[字符游戏-智能蛇](snake-game2.html) <br> 项目1-12：写一个博客介绍字符版本贪吃蛇游戏设计及算法、或创新玩法 |
