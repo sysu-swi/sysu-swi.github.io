@@ -123,6 +123,8 @@ layout: default
     - 16307015，[我们是否已经成了“透明人”？](https://donggoing.github.io/swi-homework/%E6%88%91%E4%BB%AC%E6%98%AF%E5%90%A6%E5%B7%B2%E6%88%90%E2%80%9C%E9%80%8F%E6%98%8E%E4%BA%BA%E2%80%9D.html)
        - 似乎是事实，怎么办呢？在线等。。。。
 * IT伦理与社会责任：
+    - 18342036，[与机器人恋爱？人类该如何定义与AI的关系](https://hynnn.github.io/hjn-homework/lab11)
+        - 有趣的思考，引导我们去看电影？。。。
 * 风险投资知识与其利弊：
 
 
