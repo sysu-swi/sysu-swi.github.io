@@ -104,9 +104,9 @@ layout: default
 | 12 | Problem Solving and OO Design [ppt](slides/07-13OOProgramoing.pdf)| 风云人物与计算机语言：<br> 1. 《奇思妙想》第一部分 如何与计算机对话（前言) <br> 2. 《奇思妙想》第1章 约翰·巴科斯 |  作业9：见课件 <br> 项目4：[Python 交互式编程](python.html) |
 | 13 | Abstract Data Types and Algorithms [ppt](slides/08-AbstractData.pdf) | 风云人物与计算机语言：<br> 3. 《奇思妙想》第2章 约翰·麦卡锡 <br> 4. 《奇思妙想》第3章 艾伦·C·凯 | 1-9：写一个博客关于 IT 伦理与道德的博客。[具体要求](markdown-it-ethic.html) <br> 用实例讲述一些排序的算法过程（越直观越好）!加分项|
 | 14 | Abstract Data Types and Algorithms | 风投与IT产业：<br> 1. 《浪潮之巅》第13章 风险投资 <br> 2. 《浪潮之巅》第7章 思科 |  作业10：见课件 <br> 项目5-1：[字符游戏-贪吃蛇](snake-game1.html) <br> 项目1-10：完成相关阅读，以博客形式写有关IT行业风投的知识、事件等，请重点关注风投与中国 |
-| 15 | Operation System [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/09-OperationSystem.pdf) | 互联网经济与新思维：<br> 1. 《浪潮之巅》第8章 雅虎公司 <br> 2. 《浪潮之巅》第19章 商业模式 | 项目5-2：[字符游戏-智能蛇](snake-game2.html) <br> 项目1-11：写一个博客介绍字符版本贪吃蛇游戏设计及算法、或创新玩法 |
-| 16 | Networks [ppt](http://ss.sysu.edu.cn/~pml/se121/2011fall/slides/10-Network.pdf) | 扩展阅读：互联网与新思维 <br> 《长尾理论》《世界是平的》《蓝海战略》<br> | 项目1-12：吴军在浪潮之巅中，用了“流量、流量、流量”来强调新经济时代的核心。请围绕“流量”这个核心，在相关阅读基础上，用博客介绍互联网时代的盈利模式 |
-| 17 | 软件工程综述 | &emsp; | &emsp; |
+| 15 | Operation System [ppt](slides/09-OperationSystem.pdf) | 互联网经济与新思维：<br> 1. 《浪潮之巅》第8章 雅虎公司 <br> 2. 《浪潮之巅》第19章 商业模式 | 项目5-2：[字符游戏-智能蛇](snake-game2.html) <br> 项目1-11：写一个博客介绍字符版本贪吃蛇游戏设计及算法、或创新玩法 |
+| 16 | Networks [ppt](10-Network.pdf) | 扩展阅读：互联网与新思维 <br> 《长尾理论》《世界是平的》《蓝海战略》<br> | 项目1-12：吴军在浪潮之巅中，用了“流量、流量、流量”来强调新经济时代的核心。请围绕“流量”这个核心，在相关阅读基础上，用博客介绍互联网时代的盈利模式 |
+| 17 | 软件工程综述 [ppt](slides/11-SoftwareEngineeringReview.pdf) | &emsp; | &emsp; |
 | 18 | 软件工程与职业规划 [ppt](http://ss.sysu.edu.cn/~pml/se121/2016fall/%C8%ED%BC%FE%B9%A4%B3%CC%D3%EB%D6%B0%D2%B5%B9%E6%BB%AEv30.pdf) | 扩展阅读：互联网与新思维 <br> 格拉德威尔系列：《异类》《引爆点》| 项目1-13: 写一遍博客介绍互联网时代的热点领域选择、营销方法 |
 | 19 | 复习 | &emsp; | &emsp; |
 | 20 | 期末考试 | &emsp; | &emsp; |
@@ -126,6 +126,8 @@ layout: default
     - 18342036，[与机器人恋爱？人类该如何定义与AI的关系](https://hynnn.github.io/hjn-homework/lab11)
         - 有趣的思考，引导我们去看电影？。。。
 * 风险投资知识与其利弊：
+    - 16328086,[IT中国与风投的前世今生](https://winszheng.github.io/HW-IntroToSoft/lab10)
+        - 勇气，是前进的第一步！
 
 
 
