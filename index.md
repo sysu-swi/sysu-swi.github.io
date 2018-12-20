@@ -108,7 +108,7 @@ layout: default
 | 16 | Networks [ppt](slides/10-Network.pdf) | 扩展阅读：互联网与新思维 <br> 《长尾理论》《世界是平的》《蓝海战略》<br> | 项目1-12：吴军在浪潮之巅中，用了“流量、流量、流量”来强调新经济时代的核心。请围绕“流量”这个核心，在相关阅读基础上，用博客介绍互联网时代的盈利模式 |
 | 17 | 软件工程综述 [ppt](slides/11-SoftwareEngineeringReview.pdf) | &emsp; | &emsp; |
 | 18 | 软件工程与职业规划 [ppt](http://ss.sysu.edu.cn/~pml/se121/2016fall/%C8%ED%BC%FE%B9%A4%B3%CC%D3%EB%D6%B0%D2%B5%B9%E6%BB%AEv30.pdf) | 扩展阅读：互联网与新思维 <br> 格拉德威尔系列：《异类》《引爆点》| 项目1-13: 写一遍博客介绍互联网时代的热点领域选择、营销方法 |
-| 19 | 复习 | &emsp; | &emsp; |
+| 19 | 复习 | [阅读部分考试大纲](reading2015.htm) | &emsp; |
 | 20 | 期末考试 | &emsp; | &emsp; |
 
 ### 六、社会热点专题探讨
